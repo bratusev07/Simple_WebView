@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://google.com");
+        webView.loadUrl("https://baragunda.ru/easyeng/auth.php");
 
         WebViewClient webViewClient = new WebViewClient() {
             @SuppressWarnings("deprecation")
